@@ -20,6 +20,10 @@ public class Score {
 		id.setMovie(movie);
 	}
 	
+	public void setUser(User user) {
+		id.setUser(user);
+	}
+	
 	public ScorePK getId() {
 		return id;
 	}
